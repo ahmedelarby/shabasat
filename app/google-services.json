@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "847077454140",
+    "project_id": "sahab-sat",
+    "storage_bucket": "sahab-sat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847077454140:android:4efe17d767b38c2216ae39",
+        "android_client_info": {
+          "package_name": "com.example.mystory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847077454140-k8qai2qrlsbsatthbtti6m8f3tjm9qnv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyXwyiI1jWSSV0P0bUAVajDwBU9mFB2T4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847077454140-k8qai2qrlsbsatthbtti6m8f3tjm9qnv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

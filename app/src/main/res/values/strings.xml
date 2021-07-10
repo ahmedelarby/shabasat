@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Shaba Sat</string>
+    <string name="sign_in">welcome</string>
+    <string name="enter_your_number_phone">* Enter your Email </string>
+    <string name="enter_your_number_phone1">Enter your Email </string>
+    <string name="enter_your_password">* Enter your password</string>
+    <string name="enter_your_password1">Enter your password</string>
+    <string name="login">Login</string>
+    <string name="login1">Login guest</string>
+
+    <string name="name">name :</string>
+    <string name="case1">case :</string>
+    <string name="type_starting">type starting :</string>
+    <string name="type_end">type End :</string>
+    <string name="oll">عددالايام المتبقيه</string>
+    <string name="callme1">callme</string>
+    <string name="callme">list data</string>
+    <string name="_100">100</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="number_card"> number card : </string>
+</resources>

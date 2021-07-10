@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#B24684C2"
+    tools:context=".addSbscirabePage">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:background="#95B5D8F5"
+        android:layout_height="wrap_content">
+
+
+
+<TextView
+    android:padding="5dp"
+    android:background="#C498C8EE"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="انشاء حساب مشترك جديد"
+    android:textSize="30sp"
+    android:id="@+id/textadd"
+    android:textColor="#000000"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:paddingStart="5dp"
+        android:id="@+id/editname"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="24dp"
+        android:textColorHint="#000000"
+        android:hint="ادخل اسم المشترك"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textadd" />
+    <EditText
+        android:inputType="number"
+        android:paddingStart="5dp"
+        android:id="@+id/editnumcard"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#000000"
+        android:hint="ادخل رقم كارت المشترك"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editname" />
+    <EditText
+        android:inputType="number"
+        android:paddingStart="5dp"
+        android:id="@+id/editnumphone"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#000000"
+        android:hint="ادخل رقم الهاتف المشترك"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editnumcard" />
+    <EditText
+        android:inputType="text"
+        android:paddingStart="5dp"
+        android:id="@+id/editaddriss"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#000000"
+        android:hint="ادخل عنوان المشترك"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editnumphone" />
+    <EditText
+        android:paddingStart="5dp"
+        android:id="@+id/editemail"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#000000"
+        android:hint="ادخل اميل المشترك"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editaddriss" />
+    <EditText
+        android:inputType="number"
+        android:paddingStart="5dp"
+        android:id="@+id/editpass"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:textColorHint="#000000"
+        android:hint="ادخل الرقم السري للمشترك"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editemail" />
+
+        <EditText
+            android:id="@+id/duration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="32dp"
+            android:gravity="center"
+            android:hint="ادخل عدد الشهور"
+            android:inputType="number"
+            android:textColorHint="#050404"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editpass" />
+
+        <Button
+            android:id="@+id/dayofmonthofyear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginStart="10dp"
+            android:padding="10dp"
+            android:background="@drawable/stile"
+            android:text="ادخل تاريخ الانتهاء"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toStartOf="@+id/duration"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/editpass"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="انشاء"
+        android:id="@+id/SignUp"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stile"
+        android:textColor="#030202"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/dayofmonthofyear"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="10dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="الغاء"
+        android:id="@+id/cancel"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/stile"
+        android:textColor="#070202"
+        android:textSize="30sp"
+        app:layout_constraintTop_toBottomOf="@id/SignUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

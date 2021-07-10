@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backuser"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".distributor">
+
+    <ProgressBar
+        android:id="@+id/prodi"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:layout_constraintBottom_toBottomOf="@+id/l1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/l1"
+        app:layout_constraintTop_toTopOf="@id/l1" />
+   <LinearLayout
+       android:background="#573B5F66"
+       android:padding="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       android:id="@+id/l1"
+       android:orientation="vertical">
+       <TextView
+           android:layout_marginTop="10dp"
+           android:id="@+id/namedi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="name"
+           android:textSize="20dp"
+           android:textColor="#0A0808"
+           android:textStyle="bold"
+           android:textAllCaps="false"/>
+       <TextView
+           android:layout_marginTop="10dp"
+           android:id="@+id/citydi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="city"
+           android:textSize="20dp"
+           android:textColor="#0A0808"
+           android:textStyle="bold"
+           android:textAllCaps="false"/>
+       <TextView
+           android:layout_marginTop="10dp"
+           android:id="@+id/emaildi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="email"
+           android:textSize="20dp"
+           android:textColor="#0A0808"
+           android:textStyle="bold"
+           android:textAllCaps="false"/>
+        <TextView
+            android:id="@+id/resdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="#020101"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:text="الرصيد المدفوع"/>
+       <TextView
+           android:id="@+id/resdi2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAllCaps="false"
+           android:textStyle="bold"
+           android:textColor="#020101"
+           android:textSize="20sp"
+           android:layout_marginTop="10dp"
+           android:text="الرصيد الذي لم يتم دفعه"/>
+
+
+
+
+
+
+
+   </LinearLayout>
+
+<LinearLayout
+    app:layout_constraintTop_toBottomOf="@id/l1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/l2"
+    android:padding="10dp"
+    android:layout_marginTop="70dp"
+    android:orientation="horizontal"
+    tools:ignore="Orientation">
+
+    <Button
+        android:layout_marginEnd="30dp"
+        android:id="@+id/add_sbscirabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stilybten"
+        android:padding="20dp"
+        android:text="اضافه مشترك جديد"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/updeit_sbscirabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stilybten"
+        android:padding="20dp"
+        android:text="تجديد الاشتراك"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>
+
+
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/l3"
+    android:layout_marginTop="10dp"
+    android:padding="10dp"
+    app:layout_constraintTop_toBottomOf="@id/l2"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:layout_marginEnd="40dp"
+        android:id="@+id/Singout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stilybten"
+        android:padding="20dp"
+        android:text="تسجيل الخروج"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/report"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stilybten"
+        android:padding="20dp"
+        android:text="ابلاغ للمسئولين "
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints" />
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/talab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="طلب تسويه"
+        android:padding="10dp"
+        android:background="@drawable/stilybten"
+        android:textAllCaps="false"
+        android:textColor="#090707"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l3"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

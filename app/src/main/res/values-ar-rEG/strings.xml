@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">سحابه سات</string>
+    <string name="sign_in">مرحبا</string>
+
+    <string name="enter_your_number_phone">* ادحل البريد الالكتروني الخاص بك</string>
+    <string name="enter_your_number_phone1">ادخل البريد الالكتروني </string>
+    <string name="enter_your_password">* ادخل الرقم السري الخاص بك</string>
+    <string name="enter_your_password1">ادخل كلمه المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="login1">الدخول كازائر</string>
+
+    <string name="name">الاسم :</string>
+    <string name="case1">الحاله :</string>
+    <string name="type_starting">تاريخ الابتداء :</string>
+    <string name="type_end">تاريخ الانتهاء :</string>
+    <string name="oll">عددالايام المتبقيه</string>
+    <string name="callme1">الاتصال بالدعم</string>
+    <string name="callme">باقات الاشتراك</string>
+    <string name="_100">100</string>
+    <string name="number_card"> رقم الكارت : </string>
+</resources>
