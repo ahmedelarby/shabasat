@@ -201,14 +201,6 @@ String hhh;
     @Override
     protected void onStart() {
         super.onStart();
-        db.collection("user").document(k).get().addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
-            @Override
-            public void onSuccess(DocumentSnapshot documentSnapshot) {
-                if (documentSnapshot.exists()){
-                    Toast.makeText(Profile.this, ""+documentSnapshot.get("numbercard").toString(), Toast.LENGTH_SHORT).show();
-                }
 
-            }
-        });
     }
 }

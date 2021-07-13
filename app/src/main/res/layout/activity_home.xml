@@ -3,9 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:background="#E2E1E1"
+    android:background="#4ADCF0F7"
     android:layout_height="match_parent"
     tools:context=".Home">
+
     <com.denzcoskun.imageslider.ImageSlider
         android:id="@+id/logo"
         android:layout_width="wrap_content"
@@ -16,6 +17,7 @@
         app:iss_period="1000"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
 
@@ -32,38 +34,45 @@
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-
+    android:textStyle="normal"
     android:text="@string/enter_your_number_phone"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@id/textb"
     android:layout_marginTop="10dp"
-    android:layout_marginStart="5dp"
+    android:layout_marginStart="40dp"
     android:id="@+id/textname"
     android:textColor="#050505"/>
 
     <EditText
+        android:padding="5dp"
+        android:background="@drawable/backedit"
         android:id="@+id/number"
         android:hint="@string/enter_your_number_phone1"
         android:layout_width="350dp"
         android:layout_height="50dp"
         android:layout_marginStart="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="12dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textname" />
     <TextView
+        android:textStyle="normal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enter_your_password"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/number"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="7dp"
         android:textColor="#070707"
         android:id="@+id/textpass"/>
     <EditText
+        android:background="@drawable/backedit"
         android:layout_width="350dp"
         android:layout_height="50dp"
+        android:padding="5dp"
         android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
         android:hint="@string/enter_your_password1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textpass"
@@ -71,8 +80,8 @@
         android:layout_marginStart="10dp"
         android:id="@+id/password"/>
     <Button
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
         android:text="@string/login"
         android:background="@drawable/stile"
         android:textColor="#F7F4F2"
@@ -85,8 +94,8 @@
 
     <Button
         android:id="@+id/usern"
-        android:layout_width="250dp"
-        android:layout_height="50dp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/stilebtn"
         android:text="@string/login1"
         android:textColor="#F7F4F2"
