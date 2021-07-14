@@ -48,18 +48,18 @@ EditText addriss;
 DatePickerDialog.OnDateSetListener setListener;
 FirebaseAuth auth =FirebaseAuth.getInstance();
     FirebaseFirestore db = FirebaseFirestore.getInstance();
-    String gettime;
-    String getkey;
+   private String gettime;
+   private String getkey;
 EditText durationy;
-    String getkey2;
-    String getbalance;
-    String getpice;
-    String getunpaidbalance;
-    Double ub;
-    Double bb;
-    Double as;
-    Double pp;
-    String asasey;
+   private String getkey2;
+  private   String getbalance;
+   private String getpice;
+   private String getunpaidbalance;
+   private Double ub;
+   private Double bb;
+   private Double as;
+   private Double pp;
+   private String asasey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

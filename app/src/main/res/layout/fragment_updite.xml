@@ -4,40 +4,69 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#B7DBEB"
+    android:background="#C00AF1"
     tools:context=".updite">
 
     <!-- TODO: Update blank fragment layout -->
-    <EditText
-        android:inputType="number"
-        android:id="@+id/dui"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:hint="ادخل عدد الشهور" />
-    <Button
-        android:padding="10dp"
-        android:background="@drawable/stile"
+    <TextView
+        android:id="@+id/ttt2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text=" قم بادخال فتره التجديد للمشترك"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dui"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/backedit"
+        android:hint="ادخل عدد الشهور"
+        android:inputType="number"
+        android:textSize="20sp"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ttt2" />
+
+    <Button
+        android:id="@+id/te"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stilebtn"
+        android:padding="10dp"
         android:text="ادخل تاريخ الانتهاء"
         android:textAllCaps="false"
-        android:textSize="30dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFEFE"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/dui"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ttt2" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#050303"
+        android:id="@+id/vvv"
+        android:layout_marginTop="25dp"
         app:layout_constraintTop_toBottomOf="@id/dui"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:id="@+id/te"
-        android:layout_marginTop="10dp"/>
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/ok"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
         android:layout_marginBottom="10dp"
         android:background="@drawable/stilebtn"
         android:text="موافق"
@@ -46,8 +75,62 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/te"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintTop_toBottomOf="@+id/vvv2"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <RadioGroup
+        android:padding="5dp"
+        android:id="@+id/ri"
+        android:background="@drawable/backedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ttt"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:textStyle="bold"
+            android:checked="true"
+            android:id="@+id/rasedasasee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:text="الرصيد الاساسي" />
+
+        <RadioButton
+            android:textStyle="bold"
+            android:id="@+id/rasedahtyatee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="الرصيد غير مدفوع" />
+
+    </RadioGroup>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="اختيار طريقه الدفع"
+        app:layout_constraintTop_toBottomOf="@id/vvv"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:id="@+id/ttt"
+        android:textColor="#070404"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#050303"
+        android:id="@+id/vvv2"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/ri"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

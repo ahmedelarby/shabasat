@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
 
     android:layout_height="match_parent"
-    android:background="#1DE0E0E9"
+    android:background="#1D7171CF"
     tools:context=".addSbscirabePage">
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"

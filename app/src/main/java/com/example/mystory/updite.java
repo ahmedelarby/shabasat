@@ -14,6 +14,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -49,6 +50,12 @@ Button ok;
    private Double pp1;
     private String getkkk;
     String numget;
+    private String getunpaidbalance2;
+    private Double ub2;
+    private Double as;
+    private String asasey;
+
+
     public updite() {
         // Required empty public constructor
     }
@@ -66,6 +73,51 @@ Button ok;
         dui=view.findViewById(R.id.dui);
     te=view.findViewById(R.id.te);
     ok=view.findViewById(R.id.ok);
+        RadioGroup radioGroup = (RadioGroup) getView().findViewById(R.id.ri);
+
+        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
+        {
+            public void onCheckedChanged(RadioGroup group, int checkedId) {
+                // checkedId is the RadioButton selected
+
+                switch(checkedId) {
+                    case R.id.rasedasasee:
+                        as=bb;
+                        asasey="balance";
+                        Toast.makeText(getContext(), ""+asasey+as, Toast.LENGTH_SHORT).show();
+                        // switch to fragment 1
+                        break;
+                    case R.id.rasedahtyatee:
+                        as=ub2;
+                        asasey="unpaidbalance";
+                        Toast.makeText(getContext(), ""+asasey+as, Toast.LENGTH_SHORT).show();
+                        // Fragment 2
+                        break;
+                }
+            }
+        });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         Calendar cal= Calendar.getInstance();
         final int year=cal.get(Calendar.YEAR);
         final int month=cal.get(Calendar.MONTH);
@@ -107,12 +159,12 @@ Button ok;
                 return;
                 }
                 Double du=Double.parseDouble(vv);
-                Double to= pp1*du-bb;
+                Double to= pp1*du-as;
                 Double h=Math.abs(to);
                 String sendto= String.valueOf(h);
 
 
-                if (to>=bb){
+                if (to>=as){
 
                     Toast.makeText(getContext(), "الرصيد لايسمح", Toast.LENGTH_SHORT).show();
                     return;
@@ -129,7 +181,7 @@ Button ok;
 
 
                     Map<String,Object> user4=new HashMap<>();
-                    user4.put("balance",sendto);
+                    user4.put(asasey,sendto);
                     db.collection("user").document(getkey1).set(user4,SetOptions.merge());
 
 
@@ -170,8 +222,13 @@ Button ok;
                     getkey2 = documentSnapshot.get("keyadmin").toString();
                     getbalance = documentSnapshot.get("balance").toString();
                     getpice = documentSnapshot.get("pice").toString();
+                    getunpaidbalance2=documentSnapshot.get("unpaidbalance").toString();
+
+
                     bb=Double.parseDouble(getbalance);
                     pp1=Double.parseDouble(getpice);
+                    ub2=Double.parseDouble(getunpaidbalance2);
+
 
                     Toast.makeText(getContext(), "الرصيد" +bb, Toast.LENGTH_SHORT).show();
                 }else {

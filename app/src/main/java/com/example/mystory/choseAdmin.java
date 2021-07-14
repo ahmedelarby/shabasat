@@ -29,7 +29,6 @@ public class choseAdmin extends AppCompatActivity {
                 ft2.add(R.id.frem123,tt2);
                 ft2.commit();
 
-
                 break;
             case "ts":
 
