@@ -60,6 +60,14 @@ Button ts;
                 startActivity(tm);
             }
         });
+        tr.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent tm=new Intent(getContext(),choseAdmin.class);
+                tm.putExtra("tm","rased");
+                startActivity(tm);
+            }
+        });
 
         sinout.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -14,6 +14,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -53,8 +54,12 @@ EditText durationy;
     String getkey2;
     String getbalance;
     String getpice;
+    String getunpaidbalance;
+    Double ub;
     Double bb;
+    Double as;
     Double pp;
+    String asasey;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -153,13 +158,16 @@ EditText durationy;
              if (type==null){
                  Toast.makeText(addSbscirabePage.this, "is Empty type", Toast.LENGTH_SHORT).show();return;}
                Double du=Double.parseDouble(d);
-               Double to= pp*du-bb;
+               Double to= pp*du-as;
                Double h=Math.abs(to);
                String sendto= String.valueOf(h);
+                //
+//               Double to2=pp*du-ub;
+//               Double h2=Math.abs(to2);
+//               String sendto2=String.valueOf(h2);
 
+             if (to>=as){
 
-             if (to>=bb){
-                // if(to>=){}
                  Toast.makeText(addSbscirabePage.this, "الرصيد لايسمح", Toast.LENGTH_SHORT).show();
                     return;
              }
@@ -201,13 +209,23 @@ EditText durationy;
                          user3.put("num",nc);
                          db.collection(getkey2).document(nc)
                                  .set(user3,SetOptions.merge());
-                         Map<String,Object> user4=new HashMap<>();
-                         user4.put("balance",sendto);
-                         db.collection("user").document(getkey).set(user4,SetOptions.merge());
+
+                             Map<String,Object> user4=new HashMap<>();
+                             user4.put(asasey,sendto);
+                             db.collection("user").document(getkey).set(user4,SetOptions.merge());
+
+
+
+
+//                         Map<String,Object> user5=new HashMap<>();
+//
+//                         user5.put("unpaidbalance",sendto2);
+//                         db.collection("user").document(getkey).set(user5,SetOptions.merge());
                          Toast.makeText(addSbscirabePage.this, "is complete", Toast.LENGTH_SHORT).show();
                            // FirebaseAuth.getInstance().signOut();
                          Intent back= new Intent(addSbscirabePage.this,Home.class);
                          startActivity(back);
+                         finish();
 
 
 
@@ -256,7 +274,37 @@ EditText durationy;
 
            }
        });
+
+
     }
+
+    public void onRadioButtonClicked(View view) {
+        // Is the button now checked?
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.rasedassasey:
+                if (checked)
+                    as=bb;
+                    asasey="balance";
+                Toast.makeText(this, ""+asasey+as, Toast.LENGTH_SHORT).show();
+                    // Pirates are the best
+                    break;
+            case R.id.rasedahtyatey:
+                if (checked)
+                    as=ub;
+                    asasey="unpaidbalance";
+                Toast.makeText(this, ""+asasey+as, Toast.LENGTH_SHORT).show();
+
+                // Ninjas rule
+                    break;
+        }
+    }
+
+
+
+
 
     @Override
     protected void onStart() {
@@ -269,8 +317,10 @@ EditText durationy;
                     getkey2 = documentSnapshot.get("keyadmin").toString();
                     getbalance = documentSnapshot.get("balance").toString();
                     getpice = documentSnapshot.get("pice").toString();
+                    getunpaidbalance=documentSnapshot.get("unpaidbalance").toString();
                      bb=Double.parseDouble(getbalance);
                      pp=Double.parseDouble(getpice);
+                     ub=Double.parseDouble(getunpaidbalance);
 
                     Toast.makeText(addSbscirabePage.this, "الرصيد" +bb, Toast.LENGTH_SHORT).show();
                 }else {

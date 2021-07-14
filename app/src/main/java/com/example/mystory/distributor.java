@@ -40,6 +40,7 @@ TextView namepage;
 TextView citypage;
 TextView emilpage;
 TextView res;
+TextView resdi2;
 ProgressBar loding;
 FirebaseAuth auth=FirebaseAuth.getInstance();
 Button report;
@@ -64,6 +65,7 @@ String k;
         citypage=view.findViewById(R.id.citydi);
         emilpage=view.findViewById(R.id.emaildi);
         res=view.findViewById(R.id.resdi);
+        resdi2=view.findViewById(R.id.resdi2);
         loding=view.findViewById(R.id.prodi);
         Singout=view.findViewById(R.id.Singout);
         Singout.setOnClickListener(new View.OnClickListener() {
@@ -338,6 +340,7 @@ String k;
                     citypage.setText(""+documentSnapshot.get("city").toString());
                     emilpage.setText(""+documentSnapshot.get("email").toString());
                     res.setText(""+documentSnapshot.get("balance").toString());
+                    resdi2.setText(""+documentSnapshot.get("unpaidbalance").toString());
                     loding.setVisibility(View.GONE);
                 }
 

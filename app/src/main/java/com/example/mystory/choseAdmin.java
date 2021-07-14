@@ -22,7 +22,12 @@ public class choseAdmin extends AppCompatActivity {
                 ft1.commit();
 
                 break;
-            case "tr":
+            case "rased":
+                rasedmowsea tt2=new rasedmowsea();
+                FragmentManager fm2=getSupportFragmentManager();
+                FragmentTransaction ft2=fm2.beginTransaction();
+                ft2.add(R.id.frem123,tt2);
+                ft2.commit();
 
 
                 break;
