@@ -45,6 +45,7 @@ ProgressBar loding;
 FirebaseAuth auth=FirebaseAuth.getInstance();
 Button report;
 String k;
+Button talab;
     AlertDialog dialog1;
     AlertDialog dialog2;
     AlertDialog dialog3;
@@ -66,6 +67,7 @@ String k;
         emilpage=view.findViewById(R.id.emaildi);
         res=view.findViewById(R.id.resdi);
         resdi2=view.findViewById(R.id.resdi2);
+        talab=view.findViewById(R.id.talab);
         loding=view.findViewById(R.id.prodi);
         Singout=view.findViewById(R.id.Singout);
         Singout.setOnClickListener(new View.OnClickListener() {
@@ -221,7 +223,32 @@ String k;
             }
         });
 
+        talab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
+                builder.setMessage("هل تريد ارسال طلب تسويه ").setTitle("طلب التسويه ");
+                builder.setNegativeButton("موافق", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
+
+
+
+
+
+
+
+
+
+            }
+        });
 
         add_sbscirabe1.setOnClickListener(new View.OnClickListener() {
             @Override

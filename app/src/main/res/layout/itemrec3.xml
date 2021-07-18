@@ -15,7 +15,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:padding="10dp"
-        android:background="#9571BBF5"
+        android:background="#9109DA"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
         android:id="@+id/c11">
@@ -29,7 +29,7 @@
             android:layout_marginEnd="60dp"
             android:text="كميه الاشتراك"
             android:textAllCaps="false"
-            android:textColor="#F00505"
+            android:textColor="#FDFAFA"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
@@ -44,7 +44,7 @@
             android:layout_marginTop="8dp"
             android:text="طلب اشتراك"
             android:textAllCaps="false"
-            android:textColor="#F00505"
+            android:textColor="#FFFFFF"
             android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintEnd_toStartOf="@+id/k"
@@ -78,17 +78,17 @@
                 android:textColor="#FFFDFD"
                 android:textAllCaps="false"
                 android:textStyle="bold"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:id="@+id/okaytalb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="موافقه"/>
+                android:text="موافق"/>
             <Button
                 android:layout_marginStart="20dp"
                 android:textStyle="bold"
                 android:textColor="#FFFFFF"
                 android:background="@drawable/stilebtn"
-                android:textSize="15sp"
+                android:textSize="20sp"
                 android:id="@+id/rafdtalb"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

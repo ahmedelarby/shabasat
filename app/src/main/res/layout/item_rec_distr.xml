@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     app:cardCornerRadius="10dp"
-    app:cardBackgroundColor="#A9A3DCE6"
+    app:cardBackgroundColor="#A9A40ADD"
     app:cardElevation="5dp"
     app:contentPadding="5dp"
     android:background="@drawable/backuser"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toBottomOf="@id/photo"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="3dp"
-        android:textColor="#050404"
+        android:textColor="#FCFBFB"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
         app:layout_constraintTop_toBottomOf="@id/cityname"
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginTop="3dp"
-        android:textColor="#050404"
+        android:textColor="#FFFCFC"
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

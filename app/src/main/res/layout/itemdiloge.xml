@@ -7,13 +7,13 @@
     android:layout_height="match_parent">
     <TextView
         android:layout_marginTop="10dp"
-        android:background="#F1F8F7"
+        android:background="#F3D7F7"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:textSize="30sp"
         android:id="@+id/textD"
-        android:textColor="#083E99"
+        android:textColor="#050505"
         android:textAllCaps="false"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -21,11 +21,12 @@
 <EditText
     android:textColorHint="#090606"
     android:gravity="center"
+    android:background="@drawable/backedit"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toBottomOf="@id/textD"
     android:layout_marginTop="10dp"
-    android:layout_marginStart="5dp"
-    android:layout_marginEnd="5dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
     app:layout_constraintEnd_toEndOf="parent"
     android:layout_width="match_parent"
     android:layout_height="60dp"
@@ -42,8 +43,9 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints">
         <Button
-            android:background="@drawable/stile"
+            android:background="@drawable/stilebtn"
             android:id="@+id/yes"
+            android:textColor="#FAF7F7"
             android:textAllCaps="false"
             android:text="بحث"
             android:textSize="30sp"

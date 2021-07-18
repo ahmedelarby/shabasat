@@ -189,7 +189,7 @@ EditText durationy;
                          user.put("dateofregistration",gettime);
                          user.put("adjective", "subscriber");
                          user.put("case", "noActivie");
-
+                         user.put("totalday2","0");
                          user.put("totalday", "0");
                          user.put("typeend", type);
                          user.put("typestarting", "0");

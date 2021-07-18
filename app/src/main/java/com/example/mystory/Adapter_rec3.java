@@ -122,7 +122,7 @@ public class Adapter_rec3 extends RecyclerView.Adapter<Adapter_rec3.ViewHolder> 
         Calendar cal1 = Calendar.getInstance();
         cal1.setTimeInMillis(timeInMillis);
         SimpleDateFormat dateFormat = new SimpleDateFormat(
-                "yyyy/MM/dd hh:mm a", Locale.ENGLISH);
+                "yyyy/MM/dd", Locale.ENGLISH);
         String gettime = dateFormat.format(cal1.getTime());
         holder.ok1.setOnClickListener(new View.OnClickListener() {
             @Override

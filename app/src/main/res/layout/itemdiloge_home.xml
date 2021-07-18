@@ -2,21 +2,21 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
 
     <ProgressBar
         android:id="@+id/prohome"
         style="?android:attr/progressBarStyle"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="88dp"
+        android:layout_marginEnd="44dp"
         android:layout_marginBottom="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +25,9 @@
         android:textAllCaps="false"
         android:textColor="#1048B9"
         android:textSize="15dp"
+        android:layout_marginEnd="10dp"
         android:textStyle="bold"
+        android:layout_marginStart="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/prohome"
         app:layout_constraintHorizontal_bias="0.848"

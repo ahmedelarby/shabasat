@@ -54,7 +54,7 @@ Button ok;
     private Double ub2;
     private Double as;
     private String asasey;
-
+    RadioGroup radioGroup;
 
     public updite() {
         // Required empty public constructor
@@ -73,7 +73,7 @@ Button ok;
         dui=view.findViewById(R.id.dui);
     te=view.findViewById(R.id.te);
     ok=view.findViewById(R.id.ok);
-        RadioGroup radioGroup = (RadioGroup) getView().findViewById(R.id.ri);
+         radioGroup = (RadioGroup) view.findViewById(R.id.ri);
 
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener()
         {

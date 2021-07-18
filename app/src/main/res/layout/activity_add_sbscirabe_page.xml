@@ -133,53 +133,32 @@
         </RadioGroup>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <EditText
             android:id="@+id/duration"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_marginEnd="20dp"
-            android:gravity="center"
-            android:padding="15dp"
+            android:layout_marginTop="24dp"
             android:background="@drawable/backedit"
+            android:gravity="center"
             android:hint="ادخل عدد الشهور"
             android:inputType="number"
+            android:padding="15dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/red" />
+            app:layout_constraintTop_toBottomOf="@+id/red" />
 
         <Button
             android:id="@+id/dayofmonthofyear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
-            android:layout_marginStart="10dp"
-            android:padding="15dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
             android:background="@drawable/backedit"
+            android:padding="15dp"
             android:text="ادخل تاريخ الانتهاء"
             android:textColor="#000000"
             android:textSize="20dp"
-            app:layout_constraintEnd_toStartOf="@+id/duration"
-            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/red"
+            app:layout_constraintTop_toBottomOf="@+id/red"
             tools:ignore="MissingConstraints" />
 
         <Button
@@ -207,13 +186,14 @@
             android:background="@drawable/stilebtn"
             android:padding="5dp"
             android:text="الغاء"
-            android:layout_marginTop="25dp"
             android:textAllCaps="false"
             android:textColor="#FFFEFE"
             android:textSize="30sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.551"
             app:layout_constraintStart_toEndOf="@+id/SignUp"
-            app:layout_constraintTop_toBottomOf="@+id/dayofmonthofyear" />
+            app:layout_constraintTop_toBottomOf="@+id/duration"
+            app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

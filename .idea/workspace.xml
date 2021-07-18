@@ -2,22 +2,59 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config>
-        <locale>ar-rEG</locale>
-      </config>
+      <config />
     </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="setTimeOptions" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb1753a-e573-4995-a972-e734c0a5bf0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__joda_time_joda_time_2_9_1_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec3.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/UserPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itemrec2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemrec2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/itemrec3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemrec3.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +65,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="2536c1b3" />
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
@@ -49,63 +86,103 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="524">
+              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
             </state>
           </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="243">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="353">
+              <caret line="171" column="33" lean-forward="true" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="428">
+              <caret line="93" column="26" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="26" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="50" column="28" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="28" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
+            <state relative-caret-position="347">
+              <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
             </state>
           </provider>
           <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="163" column="40" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7914">
-              <caret line="342" column="66" selection-start-line="342" selection-start-column="66" selection-end-line="342" selection-end-column="66" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -126,34 +203,22 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/datadis.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapterrectoo.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-ar-rEG/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/circel.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/diloge.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/splashscreen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/SplashScreen.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/UserPage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Showmowazea.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemrec2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/item_menu.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Home.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_chose_admin.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/userzaer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/itemmanu2inrec3.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/datarec3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemrec3.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/tlabatmowasea.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Profile.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/test.xml" />
@@ -163,24 +228,36 @@
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/stile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/backedit.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/backprofile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/admin.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec3.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/circel.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/mystory/UserPage.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemrec3.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/itemrec2.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
@@ -192,6 +269,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -225,13 +303,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="70d4d3da" />
-    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-06-05T00:34:00.017Z" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="2536c1b3" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-07-18T20:47:31.528Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
@@ -343,43 +420,43 @@
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15733737" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.15733737" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Run" order="0" weight="0.3901274" />
-      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.3009554" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.4745223" />
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.1433121" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.29617834" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.098726116" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.50159234" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.32980332" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.31996974" />
+      <window_info active="true" anchor="right" id="Preview" order="4" visible="true" weight="0.32753405" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Assistant" order="6" weight="0.37670198" />
       <window_info anchor="right" id="StringPreview" order="7" />
       <window_info anchor="right" id="Flutter Performance" order="8" sideWeight="0.49840763" weight="0.32980332" />
       <window_info anchor="right" id="Flutter Inspector" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="Flutter Outline" order="10" sideWeight="0.49840763" weight="0.32980332" />
+      <window_info anchor="right" id="Flutter Outline" order="10" sideWeight="0.49840763" weight="0.19894099" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.15733737" />
-      <window_info id="Structure" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info id="Build Variants" order="4" side_tool="true" />
-      <window_info id="Image Layers" order="5" />
-      <window_info id="Designer" order="6" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.15733737" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.3901274" />
@@ -389,7 +466,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.1433121" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.22611465" />
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.50159234" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -401,18 +478,20 @@
       <window_info anchor="right" id="StringPreview" order="7" />
       <window_info anchor="right" id="Flutter Performance" order="8" sideWeight="0.49840763" weight="0.32980332" />
       <window_info anchor="right" id="Flutter Inspector" order="9" weight="0.32980332" />
-      <window_info anchor="right" id="Flutter Outline" order="10" sideWeight="0.49840763" weight="0.32980332" />
+      <window_info anchor="right" id="Flutter Outline" order="10" sideWeight="0.49840763" visible="true" weight="0.19894099" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="1" />
+        <option value="3" />
+      </list>
+    </option>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/diloge.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="85" column="33" lean-forward="true" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/item_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -420,74 +499,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemrec2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="82" column="4" selection-start-line="82" selection-start-column="4" selection-end-line="82" selection-end-column="4" />
-          <folding>
-            <element signature="e#7311#7328#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/pagehomemenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="37" column="29" selection-start-line="33" selection-start-column="16" selection-end-line="37" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="41" selection-end-column="48" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/Showmowazea.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -513,14 +524,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemrec3.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
@@ -566,13 +569,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/Profile.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -651,10 +647,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chose_admin.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/pagehomemenu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        <state relative-caret-position="-619">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5643">
+          <caret line="236" column="19" selection-start-line="236" selection-start-column="19" selection-end-line="236" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/circel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2538">
+          <caret line="125" column="59" selection-start-line="125" selection-start-column="59" selection-end-line="125" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="178" column="43" selection-start-line="178" selection-end-line="179" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="65" column="55" lean-forward="true" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="197" column="35" lean-forward="true" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemrec3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="77" column="38" lean-forward="true" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
@@ -667,14 +770,6 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1215">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pagehomemenu.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -683,121 +778,114 @@
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="380">
+          <caret line="101" column="37" lean-forward="true" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/admin.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chose_admin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="81">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec3.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="64" column="28" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6727#6728#0" expanded="true" />
-            <element signature="e#6761#6762#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="164">
+          <caret line="180" column="8" selection-start-line="180" selection-start-column="8" selection-end-line="180" selection-end-column="8" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemrec2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" selection-start-line="9" selection-start-column="4" selection-end-line="19" />
+        <state relative-caret-position="108">
+          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemdiloge_home.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/itemdiloge.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/item_rec_distr.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="50" column="28" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="93" column="26" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="26" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-231">
-          <caret line="161" column="36" selection-start-line="161" selection-start-column="36" selection-end-line="161" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4295">
-          <caret line="294" column="28" lean-forward="true" selection-start-line="294" selection-start-column="28" selection-end-line="294" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        <state relative-caret-position="524">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tlabatmowasea.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="324">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
+      <provider editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7914">
-          <caret line="342" column="66" selection-start-line="342" selection-start-column="66" selection-end-line="342" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="163" column="40" selection-start-line="163" selection-start-column="40" selection-end-line="163" selection-end-column="40" />
+        <state relative-caret-position="243">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="179" column="28" selection-start-line="179" selection-start-column="28" selection-end-line="179" selection-end-column="28" />
+        <state relative-caret-position="353">
+          <caret line="171" column="33" lean-forward="true" selection-start-line="171" selection-start-column="33" selection-end-line="171" selection-end-column="33" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="38" lean-forward="true" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_userzaer.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="55" column="45" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
         </state>
       </provider>
       <provider editor-type-id="android-designer2" />

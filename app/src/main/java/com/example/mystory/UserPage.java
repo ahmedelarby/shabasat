@@ -3,12 +3,15 @@ package com.example.mystory;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
 import androidx.fragment.app.Fragment;
 
 import android.text.style.UpdateLayout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -30,9 +33,27 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.firestore.SetOptions;
 
+import org.joda.time.DateTimeUtils;
+import org.joda.time.Period;
+import org.joda.time.PeriodType;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
+import java.util.Map;
+import java.util.concurrent.TimeUnit;
+
+import static android.provider.Settings.System.DATE_FORMAT;
+import static java.time.temporal.ChronoUnit.DAYS;
 
 
 /**
@@ -45,7 +66,9 @@ ImageSlider image_slider;
      FirebaseFirestore db=FirebaseFirestore.getInstance();
     CollectionReference collectionReference=db.collection("slider");
     FirebaseAuth auth = FirebaseAuth.getInstance();
-
+    long ggg;
+    String tot;
+    String tot2;
     TextView nametext;
     TextView casetext;
     TextView nc;
@@ -56,6 +79,9 @@ ImageSlider image_slider;
     Button callme,button;
     int pro=360;
     Button signout;
+String e;
+String s;
+
     public UserPage() {
         // Required empty public constructor
     }
@@ -78,6 +104,18 @@ ImageSlider image_slider;
         numday=view.findViewById(R.id.numday);
         callme=view.findViewById(R.id.callme);
         button=view.findViewById(R.id.button);
+
+
+
+
+
+
+
+
+
+
+
+
         signout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -100,7 +138,17 @@ ImageSlider image_slider;
                     nc.setText("" + documentSnapshot.get("numbercard").toString());
                     typeend1.setText("" + documentSnapshot.get("typeend").toString());
                     numday.setText("" + documentSnapshot.get("totalday").toString());
+                     e=  documentSnapshot.get("typeend").toString();
+                     s=documentSnapshot.get("typestarting").toString();
+                     tot=documentSnapshot.get("totalday").toString();
+                   // tot2=documentSnapshot.get("totalday2").toString();
+
                     progressBar2.setProgress(Integer.parseInt(documentSnapshot.get("totalday").toString()));
+                    setTimeOptions(e,s);
+
+
+
+
 
 
 
@@ -112,16 +160,7 @@ ImageSlider image_slider;
 
 
 
-
-
-
-
-
-
-
-
-
-            return view;
+        return view;
 
 
 
@@ -137,6 +176,37 @@ ImageSlider image_slider;
 
 
     }
+
+    private void setTimeOptions(String end, String start) {
+        Log.i("end", "setTimeOptions: " + end);
+        Log.i("satrt", "setTimeOptions: " + start);
+        try {
+            Date date1;
+            Date date2;
+            SimpleDateFormat dates = new SimpleDateFormat("yyyy/MM/dd");
+            date1 = dates.parse(start);
+            date2 = dates.parse(end);
+            long difference = Math.abs(date1.getTime() - date2.getTime());
+            long differenceDates = difference / (24 * 60 * 60 * 1000);
+            String dayDifference = Long.toString(differenceDates);
+            Map<String, Object> user = new HashMap<>();
+            user.put("totalday", dayDifference);
+            //user.put("totalday2",dayDifference);
+            db.collection("user")
+                    .document(auth.getUid())
+                    .set(user, SetOptions.merge());
+            numday.setText(""+tot);
+            progressBar2.setProgress(Integer.parseInt(tot));
+            progressBar2.setMax(40);
+
+            Log.i("Ahmed", "setTimeOptions: " + dayDifference);
+//            textView.setText("The difference between two dates is " + dayDifference + " days");
+        } catch (Exception exception) {
+            Toast.makeText(context, "Unable to find difference", Toast.LENGTH_SHORT).show();
+        }
+
+    }
+
 
     @Override
     public void onStart() {
@@ -157,5 +227,7 @@ ImageSlider image_slider;
 
             }
         });
+
+
     }
 }
