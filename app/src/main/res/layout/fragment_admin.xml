@@ -119,7 +119,7 @@
         android:id="@+id/tlabat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="60dp"
         android:layout_marginTop="36dp"
         android:background="@drawable/stilebtn"
         android:padding="5dp"
@@ -145,6 +145,7 @@
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tlabat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toEndOf="@+id/tlabat"
@@ -178,8 +179,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="20dp"
-        android:background="@drawable/stilebtn"
 
+        android:background="@drawable/stilebtn"
         android:padding="5dp"
         android:text="طلبات التسويه"
         android:textAllCaps="false"
@@ -187,6 +188,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/addrased"
         app:layout_constraintTop_toBottomOf="@id/addrased" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

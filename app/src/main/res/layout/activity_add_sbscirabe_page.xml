@@ -142,18 +142,20 @@
             android:gravity="center"
             android:hint="ادخل عدد الشهور"
             android:inputType="number"
-            android:padding="15dp"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="@+id/dayofmonthofyear"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/dayofmonthofyear"
             app:layout_constraintTop_toBottomOf="@+id/red" />
 
         <Button
             android:id="@+id/dayofmonthofyear"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
+            android:layout_marginStart="2dp"
             android:layout_marginTop="24dp"
             android:background="@drawable/backedit"
-            android:padding="15dp"
+            android:padding="10dp"
             android:text="ادخل تاريخ الانتهاء"
             android:textColor="#000000"
             android:textSize="20dp"
@@ -195,5 +197,13 @@
             app:layout_constraintStart_toEndOf="@+id/SignUp"
             app:layout_constraintTop_toBottomOf="@+id/duration"
             app:layout_constraintVertical_bias="1.0" />
+        <ProgressBar
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/progresss"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

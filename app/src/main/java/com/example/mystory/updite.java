@@ -53,7 +53,7 @@ Button ok;
     private String getunpaidbalance2;
     private Double ub2;
     private Double as;
-    private String asasey;
+    private String asasey="balance";
     RadioGroup radioGroup;
 
     public updite() {
@@ -226,6 +226,8 @@ Button ok;
 
 
                     bb=Double.parseDouble(getbalance);
+                    as=bb;
+                    Toast.makeText(getContext(), "mmmmmm"+as, Toast.LENGTH_SHORT).show();
                     pp1=Double.parseDouble(getpice);
                     ub2=Double.parseDouble(getunpaidbalance2);
 

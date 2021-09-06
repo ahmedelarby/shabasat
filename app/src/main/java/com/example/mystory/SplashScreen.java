@@ -14,6 +14,7 @@ ProgressBar proo;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splashscreen);
+
         proo=findViewById(R.id.proo);
 
 

@@ -6,17 +6,19 @@
     android:background="#45E4E1E1"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".distributor">
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="الخدمات المتاحه"
-    app:layout_constraintTop_toBottomOf="@id/l1"
-    app:layout_constraintStart_toStartOf="parent"
-    android:layout_marginStart="10dp"
-    android:layout_marginTop="10dp"
-    android:textStyle="bold"
-    android:textSize="20sp"
-    android:textColor="#070404"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="الخدمات المتاحه"
+        android:textColor="#070404"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/l1" />
     <ProgressBar
         android:id="@+id/prodi"
         android:layout_width="80dp"
@@ -190,6 +192,25 @@
 
 
 </LinearLayout>
+
+    <Button
+        android:id="@+id/hostrey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="56dp"
+        android:text="السجل"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFE"
+        android:background="@drawable/stilebtn"
+        app:layout_constraintBottom_toTopOf="@+id/Singout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/l3"
+         />
 
     <Button
         android:id="@+id/Singout"

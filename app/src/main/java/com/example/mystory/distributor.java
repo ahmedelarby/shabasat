@@ -20,8 +20,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
@@ -46,6 +48,9 @@ FirebaseAuth auth=FirebaseAuth.getInstance();
 Button report;
 String k;
 Button talab;
+String rasedtalb;
+String name;
+Button hostrey;
     AlertDialog dialog1;
     AlertDialog dialog2;
     AlertDialog dialog3;
@@ -69,6 +74,7 @@ Button talab;
         resdi2=view.findViewById(R.id.resdi2);
         talab=view.findViewById(R.id.talab);
         loding=view.findViewById(R.id.prodi);
+        hostrey=view.findViewById(R.id.hostrey);
         Singout=view.findViewById(R.id.Singout);
         Singout.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -76,6 +82,8 @@ Button talab;
                 FirebaseAuth.getInstance().signOut();
                 Intent g=new Intent(getContext(),Home.class);
                 startActivity(g);
+                getActivity().finish();
+
             }
         });
         report.setOnClickListener(new View.OnClickListener() {
@@ -228,11 +236,37 @@ Button talab;
             public void onClick(View view) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
 
-                builder.setMessage("هل تريد ارسال طلب تسويه ").setTitle("طلب التسويه ");
+                builder.setMessage("هل تريد ارسال طلب رصيد واعلامه بان رصيدك قد بلغ "+rasedtalb).setTitle("طلب التسويه ");
                 builder.setNegativeButton("موافق", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
 
+                        Map<String,Object> talab =new HashMap<>();
+                        talab.put("Requestname","طلب رصيد");
+                        talab.put("name",name);
+                        talab.put("Balance",rasedtalb);
+                        talab.put("key",auth.getUid());
+                        db.collection("talab"+" "+k)
+                                .document(auth.getUid())
+                                .set(talab,SetOptions.merge())
+                                .addOnCompleteListener(new OnCompleteListener<Void>() {
+                            @Override
+                            public void onComplete(@NonNull Task<Void> task) {
+                                if (task.isSuccessful()){
+                                    Toast.makeText(getContext(),
+                                            "تم ارسال طلبك بنجاح الي المشرف الخاص بك",
+                                            Toast.LENGTH_LONG).show();
+                                    dialogInterface.dismiss();
+                                }
+
+                            }
+                        });
+
+                    }
+                }).setPositiveButton("الغاء", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
                     }
                 });
 
@@ -367,6 +401,8 @@ Button talab;
                     citypage.setText(""+documentSnapshot.get("city").toString());
                     emilpage.setText(""+documentSnapshot.get("email").toString());
                     res.setText(""+documentSnapshot.get("balance").toString());
+                    rasedtalb=documentSnapshot.get("balance").toString();
+                    name=documentSnapshot.get("name").toString();
                     resdi2.setText(""+documentSnapshot.get("unpaidbalance").toString());
                     loding.setVisibility(View.GONE);
                 }

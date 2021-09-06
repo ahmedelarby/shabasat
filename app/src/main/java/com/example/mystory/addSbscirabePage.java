@@ -12,9 +12,12 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -51,6 +54,9 @@ FirebaseAuth auth =FirebaseAuth.getInstance();
    private String gettime;
    private String getkey;
 EditText durationy;
+RadioGroup radioButton;
+private String getname;
+ProgressBar progresss;
    private String getkey2;
   private   String getbalance;
    private String getpice;
@@ -59,13 +65,14 @@ EditText durationy;
    private Double bb;
    private Double as;
    private Double pp;
-   private String asasey;
+   private String asasey="balance";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_sbscirabe_page);
         cancel=findViewById(R.id.cancel);
+        progresss=findViewById(R.id.progresss);
 
 
         name=findViewById(R.id.editname);
@@ -157,7 +164,8 @@ EditText durationy;
              if (d.isEmpty()){durationy.setError("is Empty");return;}
              if (type==null){
                  Toast.makeText(addSbscirabePage.this, "is Empty type", Toast.LENGTH_SHORT).show();return;}
-               Double du=Double.parseDouble(d);
+
+             Double du=Double.parseDouble(d);
                Double to= pp*du-as;
                Double h=Math.abs(to);
                String sendto= String.valueOf(h);
@@ -171,6 +179,7 @@ EditText durationy;
                  Toast.makeText(addSbscirabePage.this, "الرصيد لايسمح", Toast.LENGTH_SHORT).show();
                     return;
              }
+               progresss.setVisibility(View.VISIBLE);
              auth.createUserWithEmailAndPassword(e,p).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                  @Override
                  public void onComplete(@NonNull Task<AuthResult> task) {
@@ -203,7 +212,9 @@ EditText durationy;
                          Map<String, Object> user3 = new HashMap<>();
                          user3.put("keyofregistration",getkey);
                          user3.put("caseActivie","طلب اشتراك");
-
+                         user3.put("namedistributor",getname);
+                         user3.put("namesbscirabe",n);
+                         user3.put("timesend",gettime);
                          user3.put("keysubscriber",auth.getCurrentUser().getUid());
                          user3.put("duration",d);
                          user3.put("num",nc);
@@ -215,14 +226,23 @@ EditText durationy;
                              db.collection("user").document(getkey).set(user4,SetOptions.merge());
 
 
+                        Map<String,Object> user5=new HashMap<>();
+                        user5.put("time",gettime);
+                        user5.put("duration",d);
+                        user5.put("numbercard",nc);
+                        user5.put("rsedafter",getbalance);
+                        user5.put("typepay",asasey);
 
+                        user5.put("cutraseed",""+Math.abs(pp*du));
+                        user5.put("avalibol",sendto);
+                        db.collection(getkey).document(nc).set(user5);
 
-//                         Map<String,Object> user5=new HashMap<>();
 //
 //                         user5.put("unpaidbalance",sendto2);
 //                         db.collection("user").document(getkey).set(user5,SetOptions.merge());
                          Toast.makeText(addSbscirabePage.this, "is complete", Toast.LENGTH_SHORT).show();
                            // FirebaseAuth.getInstance().signOut();
+                         progresss.setVisibility(View.GONE);
                          Intent back= new Intent(addSbscirabePage.this,Home.class);
                          startActivity(back);
                          finish();
@@ -260,7 +280,7 @@ EditText durationy;
              }).addOnFailureListener(new OnFailureListener() {
                  @Override
                  public void onFailure(@NonNull Exception e) {
-
+                     progresss.setVisibility(View.GONE);
                  }
              });
 
@@ -315,10 +335,13 @@ EditText durationy;
                 if (documentSnapshot.exists()) {
                     getkey = documentSnapshot.get("keyofregistration").toString();
                     getkey2 = documentSnapshot.get("keyadmin").toString();
+                    getname=documentSnapshot.get("name").toString();
                     getbalance = documentSnapshot.get("balance").toString();
                     getpice = documentSnapshot.get("pice").toString();
                     getunpaidbalance=documentSnapshot.get("unpaidbalance").toString();
                      bb=Double.parseDouble(getbalance);
+                     as=bb;
+                    //Toast.makeText(addSbscirabePage.this, "mmmmmmmmm"+as, Toast.LENGTH_SHORT).show();
                      pp=Double.parseDouble(getpice);
                      ub=Double.parseDouble(getunpaidbalance);
 

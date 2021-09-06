@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    app:cardElevation="15dp"
+    app:cardBackgroundColor="#6DC9F3"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    android:padding="9dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/l1hostery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="5dp">
+
+
+        <TextView
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/time_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginStart="10dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="time"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/l2hostery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintTop_toBottomOf="@id/l1hostery"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:padding="5dp">
+
+
+        <TextView
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/numcardsbscrib_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="numbercard"/>
+        <TextView
+            android:padding="5dp"
+            android:layout_marginStart="10dp"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:id="@+id/numcardsbscrib"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="num"/>
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l3hostery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintTop_toBottomOf="@id/l2hostery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="5dp">
+
+
+            <TextView
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/modetelashtrak_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nodet"/>
+            <TextView
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/modetelashterak"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="modet"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l4hostery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintTop_toBottomOf="@id/l3hostery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="5dp">
+
+
+            <TextView
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedqbl_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rsead"/>
+            <TextView
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/raseadqbel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l5hostery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintTop_toBottomOf="@id/l4hostery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="5dp">
+
+
+            <TextView
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedbaad_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="raseedbad"/>
+            <TextView
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedbaad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rasedbead"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/l6hostery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintTop_toBottomOf="@id/l5hostery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="5dp">
+
+
+            <TextView
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedcut_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="raseedcut"/>
+            <TextView
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedcut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rasedbead"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l7hostery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            app:layout_constraintTop_toBottomOf="@id/l6hostery"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:padding="5dp">
+
+
+            <TextView
+                android:padding="5dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedtype_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="raseedtype"/>
+            <TextView
+                android:padding="5dp"
+                android:layout_marginStart="10dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:id="@+id/rasedtype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="rasedtype"/>
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

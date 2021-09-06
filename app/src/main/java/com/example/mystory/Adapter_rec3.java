@@ -1,3 +1,4 @@
+
 package com.example.mystory;
 
 import android.annotation.SuppressLint;
@@ -59,18 +60,21 @@ public class Adapter_rec3 extends RecyclerView.Adapter<Adapter_rec3.ViewHolder> 
         datarec3 item = list.get(position);
         holder.t.setText(item.getCaseActivie());
         holder.m.setText(item.getDuration());
+        holder.names.setText(item.getNamesbscirabe());
+        holder.named.setText(item.getNamedistributor());
+        holder.gettime.setText(item.getTimesend());
+        holder.numbercard.setText(item.getNum());
        String k1 = item.getKeyofregistration();
        String k2 = item.getKeysubscriber();
        String num=item.getNum();
-       switch (item.getCaseActivie()){
-           case "تمت الموافقه":
-               holder.ok1.setVisibility(View.GONE);
-               holder.cancel.setVisibility(View.GONE);
-               holder.t.setTextColor(Color.parseColor("#0A0404"));
-               holder.m.setTextColor(Color.parseColor("#0A0404"));
-               break;
-
-       }
+        String getcase=item.getCaseActivie();
+        if (getcase.equals("تمت الموافقه")) {
+            holder.ok1.setVisibility(View.GONE);
+            holder.cancel.setVisibility(View.GONE);
+            holder.t.setTextColor(Color.parseColor("#0A0404"));
+            holder.m.setTextColor(Color.parseColor("#0A0404"));
+            //break;
+        }
 
 
         holder.more.setOnClickListener(new View.OnClickListener() {
@@ -156,15 +160,7 @@ public class Adapter_rec3 extends RecyclerView.Adapter<Adapter_rec3.ViewHolder> 
                             Toast.makeText(context, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     });
-                    
-
-
-
                 }
-
-
-
-
             }
         });
 
@@ -176,25 +172,10 @@ public class Adapter_rec3 extends RecyclerView.Adapter<Adapter_rec3.ViewHolder> 
                     return;
                 }else {
 
-
-
-
                 }
-
-
-
-
             }
         });
-
-
-
-
-
-
     }
-
-
     @Override
     public int getItemCount() {
         return list.size();
@@ -204,14 +185,31 @@ public class Adapter_rec3 extends RecyclerView.Adapter<Adapter_rec3.ViewHolder> 
         ConstraintLayout lyout;
         TextView t;
         TextView m;
+        TextView names;
+        TextView named;
+        TextView gettime;
+        TextView numbercard;
         Button ok1;
         Button cancel;
         Button more;
-
-
+        TextView kam;
+        TextView nnn;
+        TextView nnns;
+        TextView tareh;
+        TextView namca;
         ViewHolder(View view){
             super(view);
             lyout=view.findViewById(R.id.c11);
+            kam=view.findViewById(R.id.kam);
+            nnn=view.findViewById(R.id.nnn);
+            nnns=view.findViewById(R.id.nnns);
+            tareh=view.findViewById(R.id.tareh);
+            namca=view.findViewById(R.id.namca);
+            names=view.findViewById(R.id.namemash);
+            named=view.findViewById(R.id.namemaws);
+            gettime=view.findViewById(R.id.type);
+            numbercard=view.findViewById(R.id.num11);
+
            t=view.findViewById(R.id.t);
            m=view.findViewById(R.id.k);
            ok1=view.findViewById(R.id.okaytalb);

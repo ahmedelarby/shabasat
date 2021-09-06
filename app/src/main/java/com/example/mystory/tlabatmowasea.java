@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
@@ -25,6 +26,7 @@ import com.google.firebase.firestore.QueryDocumentSnapshot;
 import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 /**
@@ -49,6 +51,7 @@ RecyclerView rec3;
         // Inflate the layout for this fragment
         View view= inflater.inflate(R.layout.fragment_tlabatmowasea, container, false);
         rec3=view.findViewById(R.id.rec3);
+         Collections.reverse(idates);
         adapter = new Adapter_rec3(idates,getContext());
         linearLayoutManager = new LinearLayoutManager(getContext(),LinearLayoutManager.VERTICAL,false);
         rec3.setLayoutManager(linearLayoutManager);
@@ -95,7 +98,10 @@ RecyclerView rec3;
 
                 for (QueryDocumentSnapshot querySnapshot : value){
                     datarec3 dater1 = querySnapshot.toObject(datarec3.class);
-
+//                    if(dater1.equals(null)){
+//                        Toast.makeText(getContext(), "not found", Toast.LENGTH_SHORT).show();
+//                          return;
+//                    }else
                     idates.add(dater1);
                 }
                 adapter.notifyDataSetChanged();
