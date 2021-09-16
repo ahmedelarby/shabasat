@@ -73,7 +73,7 @@ ProgressBar progresss;
         setContentView(R.layout.activity_add_sbscirabe_page);
         cancel=findViewById(R.id.cancel);
         progresss=findViewById(R.id.progresss);
-
+        progresss.setVisibility(View.GONE);
 
         name=findViewById(R.id.editname);
         numphone=findViewById(R.id.editnumphone);

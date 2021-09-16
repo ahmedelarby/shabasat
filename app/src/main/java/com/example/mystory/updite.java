@@ -24,8 +24,10 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.SetOptions;
 
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
 
 
@@ -40,7 +42,7 @@ EditText dui;
 Button te;
 String dttype;
 Button ok;
-
+String gettime;
 
   private String getkey1;
    private String getkey2;
@@ -69,7 +71,12 @@ Button ok;
         getkkk = getArguments().getString("num");
         numget=getArguments().getString("numer");
         Toast.makeText(getContext(), ""+numget, Toast.LENGTH_SHORT).show();
-
+        long timeInMillis = System.currentTimeMillis();
+        Calendar cal1 = Calendar.getInstance();
+        cal1.setTimeInMillis(timeInMillis);
+        SimpleDateFormat dateFormat = new SimpleDateFormat(
+                "yyyy/MM/dd hh:mm a", Locale.ENGLISH);
+        gettime = dateFormat.format(cal1.getTime());
         dui=view.findViewById(R.id.dui);
     te=view.findViewById(R.id.te);
     ok=view.findViewById(R.id.ok);
@@ -194,9 +201,26 @@ Button ok;
                     user3.put("duration",vv);
                     user3.put("caseActivie","طلب اشتراك");
                     user3.put("num",numget);
+                    user3.put("timesend",gettime);
                     db.collection(getkey2).document(numget)
                             .set(user3,SetOptions.merge());
-                        
+
+                    Map<String,Object> user5=new HashMap<>();
+                    user5.put("time",gettime);
+                    user5.put("duration",vv);
+                    user5.put("numbercard",numget);
+                    user5.put("rsedafter",getbalance);
+                    user5.put("typepay",asasey);
+
+                    user5.put("cutraseed",""+Math.abs(pp1*du));
+                    user5.put("avalibol",sendto);
+                    db.collection(getkey1).document(numget).set(user5);
+
+//
+//                         user5.put("unpaidbalance",sendto2);
+//                         db.collection("user").document(getkey).set(user5,SetOptions.merge());
+                    Toast.makeText(getContext(), "is complete", Toast.LENGTH_SHORT).show();
+                        dismiss();
 
                 }
 

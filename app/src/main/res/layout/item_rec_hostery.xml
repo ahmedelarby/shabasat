@@ -31,15 +31,6 @@
 
         <TextView
             android:padding="5dp"
-            android:textAllCaps="false"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:id="@+id/time_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="time"/>
-        <TextView
-            android:padding="5dp"
             android:layout_marginStart="10dp"
             android:textAllCaps="false"
             android:textStyle="bold"
@@ -62,15 +53,6 @@
         android:padding="5dp">
 
 
-        <TextView
-            android:padding="5dp"
-            android:textAllCaps="false"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:id="@+id/numcardsbscrib_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="numbercard"/>
         <TextView
             android:padding="5dp"
             android:layout_marginStart="10dp"
@@ -96,15 +78,6 @@
             android:padding="5dp">
 
 
-            <TextView
-                android:padding="5dp"
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:id="@+id/modetelashtrak_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="nodet"/>
             <TextView
                 android:padding="5dp"
                 android:layout_marginStart="10dp"
@@ -133,15 +106,6 @@
 
             <TextView
                 android:padding="5dp"
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:id="@+id/rasedqbl_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="rsead"/>
-            <TextView
-                android:padding="5dp"
                 android:layout_marginStart="10dp"
                 android:textAllCaps="false"
                 android:textStyle="bold"
@@ -166,15 +130,6 @@
             android:padding="5dp">
 
 
-            <TextView
-                android:padding="5dp"
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:id="@+id/rasedbaad_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="raseedbad"/>
             <TextView
                 android:padding="5dp"
                 android:layout_marginStart="10dp"
@@ -202,15 +157,6 @@
 
             <TextView
                 android:padding="5dp"
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:id="@+id/rasedcut_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="raseedcut"/>
-            <TextView
-                android:padding="5dp"
                 android:layout_marginStart="10dp"
                 android:textAllCaps="false"
                 android:textStyle="bold"
@@ -235,15 +181,6 @@
             android:padding="5dp">
 
 
-            <TextView
-                android:padding="5dp"
-                android:textAllCaps="false"
-                android:textStyle="bold"
-                android:textSize="15sp"
-                android:id="@+id/rasedtype_text"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="raseedtype"/>
             <TextView
                 android:padding="5dp"
                 android:layout_marginStart="10dp"

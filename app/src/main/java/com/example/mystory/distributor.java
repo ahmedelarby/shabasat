@@ -76,6 +76,13 @@ Button hostrey;
         loding=view.findViewById(R.id.prodi);
         hostrey=view.findViewById(R.id.hostrey);
         Singout=view.findViewById(R.id.Singout);
+        hostrey.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent h=new Intent(getContext(),Hostrey.class);
+                startActivity(h);
+            }
+        });
         Singout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
