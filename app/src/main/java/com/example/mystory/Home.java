@@ -14,6 +14,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.denzcoskun.imageslider.ImageSlider;
@@ -48,7 +49,7 @@ EditText password;
 Button login;
 AlertDialog dialog1;
 ProgressBar progressBar1;
-Button usern1;
+TextView usern1;
 FirebaseAuth auth = FirebaseAuth.getInstance();
 FirebaseFirestore db = FirebaseFirestore.getInstance();
 CollectionReference collectionReference=db.collection("slider");

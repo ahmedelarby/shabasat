@@ -14,7 +14,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aeb1753a-e573-4995-a972-e734c0a5bf0a" name="Default Changelist" comment="ubdate six">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_intuit_sdp_sdp_android_1_0_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/AdapterHostreyAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adaptertaswya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/ModelDataAdminHostrey.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Taswya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/modeldatataswya.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/back_page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_down.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_taswya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_admin_hostrey.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/itemtaswya.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/item_choserased.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -26,19 +36,28 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/My_Story.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/My_Story.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec_hostery.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Adapter_rec_hostery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Hostrey.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Hostrey.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/addSbscirabePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/choseAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/distributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/updite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_distributor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_rec_hostery.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_rec_hostery.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mystory/rasedmowsea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/stilebtn.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/stilebtn.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v24/stilybten.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v24/stilybten.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/backedit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backedit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/backprofile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/backprofile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/circel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/circel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_add_sbscirabe_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_showmowazea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_admin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_rasedmowsea.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_updite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ar-rEG/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ar-rEG/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +67,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[SerialNumber@2536c1b3]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -72,8 +91,8 @@
         <option value="valueResourceFile" />
         <option value="layoutResourceFile_vertical" />
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
       </list>
     </option>
   </component>
@@ -91,8 +110,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable-v24" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -116,6 +135,7 @@
       <recent name="com.example.mystory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\shabasat\app\src\main\res\drawable-v24" />
       <recent name="G:\MyApplication\MyStory2\app\src\main\res\drawable-v24" />
       <recent name="G:\MyApplication\MyStory2\app\src\main\res\anim" />
       <recent name="G:\MyApplication\MyStory2\app\src\main\java\com\example\mystory" />
@@ -225,10 +245,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="ubdate six" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1628036733076">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1631997805962">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1628036733076" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1631997805962" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1631913645327">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1631913645327" />
     <state x="466" y="232" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1628112549968">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -241,30 +265,30 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="118" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1627854117699" />
-    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1627952544348">
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog" timestamp="1631996462505">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1627952544348" />
+    <state x="263" y="118" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1631996462505" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1631134072343">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631134072343" />
-    <state width="1323" height="422" key="GridCell.Tab.0.bottom" timestamp="1627961768943">
+    <state width="1323" height="422" key="GridCell.Tab.0.bottom" timestamp="1632001899164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="422" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1627961768943" />
-    <state width="1323" height="422" key="GridCell.Tab.0.center" timestamp="1627961768943">
+    <state width="1323" height="422" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1632001899164" />
+    <state width="1323" height="422" key="GridCell.Tab.0.center" timestamp="1632001899164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="422" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1627961768943" />
-    <state width="1323" height="422" key="GridCell.Tab.0.left" timestamp="1627961768942">
+    <state width="1323" height="422" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1632001899164" />
+    <state width="1323" height="422" key="GridCell.Tab.0.left" timestamp="1632001899164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="422" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1627961768942" />
-    <state width="1323" height="422" key="GridCell.Tab.0.right" timestamp="1627961768943">
+    <state width="1323" height="422" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1632001899164" />
+    <state width="1323" height="422" key="GridCell.Tab.0.right" timestamp="1632001899164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="422" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1627961768943" />
+    <state width="1323" height="422" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1632001899164" />
     <state x="263" y="106" key="IDE.errors.dialog" timestamp="1629332270217">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -273,10 +297,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1627356744652" />
-    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1628036483534">
+    <state x="499" y="141" key="chooseDestDirectoryDialog" timestamp="1631827841654">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1628036483534" />
+    <state x="499" y="141" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1631827841654" />
     <state x="385" y="172" key="com.android.tools.idea.run.deployment.SelectMultipleDevicesDialog" timestamp="1627584821114">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

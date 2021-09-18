@@ -30,7 +30,12 @@ public class choseAdmin extends AppCompatActivity {
                 ft2.commit();
 
                 break;
-            case "ts":
+            case "taswya":
+                Taswya ts=new Taswya();
+                FragmentManager fs=getSupportFragmentManager();
+                FragmentTransaction fts=fs.beginTransaction();
+                fts.add(R.id.frem123,ts);
+                fts.commit();
 
 
         }

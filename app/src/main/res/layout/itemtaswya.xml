@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:elevation="@dimen/_20sdp"
+    app:cardCornerRadius="@dimen/_10sdp"
+    android:layout_marginStart="@dimen/_3sdp"
+    android:layout_marginEnd="@dimen/_3sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:background="@drawable/back_page"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginStart="@dimen/_5sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/nametaswya"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        android:textAllCaps="false"
+        android:text="talbe"
+        android:id="@+id/talbe"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nametaswya"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.0"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/talbe"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:id="@+id/blc"/>
+
+    <Button
+        android:id="@+id/Addrased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:background="@drawable/stile"
+        android:padding="@dimen/_3sdp"
+        android:text="اضافه رصيد"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/blc" />
+<EditText
+    android:layout_width="@dimen/_100sdp"
+    android:layout_height="@dimen/_40sdp"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/Addrased"
+    android:hint="ادخل قيمه الرصيد"
+    android:visibility="gone"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:id="@+id/rasedadd"
+    android:layout_marginStart="@dimen/_5sdp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#1D2196F3"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:textSize="@dimen/_15sdp"
+        android:id="@+id/choserased"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Addrased"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="اختيار نوع الحساب"
+        android:drawableStart="@drawable/ic_down"
+        android:layout_marginEnd="@dimen/_10sdp"/>
+        <Button
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:text="اضافه"
+            android:visibility="gone"
+            android:background="@drawable/stilebtn"
+            android:textAllCaps="false"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:textColor="#FFFCFC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/rasedadd"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:id="@+id/addraseed"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

@@ -50,7 +50,7 @@ Button ts;
         pro3=view.findViewById(R.id.pro3);
 
         tm=view.findViewById(R.id.tlabat);
-        tr=view.findViewById(R.id.addrased);
+        tr=view.findViewById(R.id.hostreyadmin);
         ts=view.findViewById(R.id.talbtaswya);
         tm.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -68,7 +68,14 @@ Button ts;
                 startActivity(tm);
             }
         });
-
+        ts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent ts=new Intent(getContext(),choseAdmin.class);
+                ts.putExtra("tm","taswya");
+                startActivity(ts);
+            }
+        });
         sinout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

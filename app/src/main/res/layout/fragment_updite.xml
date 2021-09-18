@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#C00AF1"
+    android:background="@drawable/back_page"
     tools:context=".updite">
 
     <!-- TODO: Update blank fragment layout -->
@@ -27,12 +27,12 @@
 
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_40sdp"
         android:background="@drawable/backedit"
         android:hint="ادخل عدد الشهور"
         android:inputType="number"
-        android:textSize="20sp"
+        android:textSize="@dimen/_15sdp"
         android:padding="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ttt2" />
@@ -41,15 +41,14 @@
         android:id="@+id/te"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:background="@drawable/stilebtn"
         android:padding="5dp"
         android:text="ادخل تاريخ الانتهاء"
         android:textAllCaps="false"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="15dp"
         android:textColor="#FFFEFE"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toStartOf="@+id/dui"
+        android:textSize="@dimen/_10sdp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ttt2" />
     <View
@@ -82,7 +81,7 @@
     <RadioGroup
         android:padding="5dp"
         android:id="@+id/ri"
-        android:background="@drawable/backedit"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
